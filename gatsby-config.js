@@ -16,7 +16,7 @@ module.exports = {
         background_color: `#56179c`,
         theme_color: `#56179c`,
         display: `minimal-ui`,
-        icon: `public/static/favicon.png`, // This path is relative to the root of the site.
+        icon: `public/static/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -52,7 +52,6 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Tutorial',
     description: 'Tutorial project to learn Gatsby',
-    copyright: 'This website is copyright 2022, Jon Wright',
-    contact: 'us@ouremail.com'
+    copyright: 'This website is copyright 2022, Jon Wright'
   }
 };
