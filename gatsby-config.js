@@ -8,17 +8,17 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: `Gatsby Tutorial`,
-        start_url: `/`,
-        background_color: `#56179c`,
-        theme_color: `#56179c`,
-        display: `minimal-ui`,
-        icon: `public/static/favicon-32x32.png`, // This path is relative to the root of the site.
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-manifest',
+    //   options: {
+    //     name: `Gatsby Tutorial`,
+    //     start_url: `/`,
+    //     background_color: `#56179c`,
+    //     theme_color: `#56179c`,
+    //     display: `minimal-ui`,
+    //     icon: `public/static/favicon-32x32.png`, // This path is relative to the root of the site.
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -52,6 +52,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Tutorial',
     description: 'Tutorial project to learn Gatsby',
-    copyright: 'This website is copyright 2022, Jon Wright'
+    copyright: 'This website is copyright 2022, Jon Wright',
+    contact: 'fakeemail@test.com'
   }
 };
